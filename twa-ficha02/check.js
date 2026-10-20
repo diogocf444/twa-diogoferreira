@@ -8,7 +8,7 @@ assert.equal(byCategory(items, 'Ação').length, 4);
 // 2. search: Sabemos que ao pesquisar "Batata", deve encontrar 1 jogo
 assert.equal(search(items, 'Minecraft').length, 1);
 
-// 3. top: O jogo mais caro da lista (59.99) é o 'God of War Ragnarok'
+// 3. top: O jogo mais caro da lista (59.99) é o 'Counter-Strike 2'
 assert.equal(top(items, 1)[0].name, 'Counter-Strike 2');
 
 // 4. categories: Devem ser 3 categorias únicas e ordenadas alfabeticamente
